@@ -1,7 +1,15 @@
 # mongoose-recon
 Add reconnection handler on mongoose
 
-# Usage
+[![NPM version](https://badge.fury.io/js/mongoose-recon.svg)](https://www.npmjs.com/package/mongoose-recon/)
+
+### Getting started
+
+```bash
+npm install mongoose-recon 
+```
+
+### Usage
 
 ```node
 var mongoose = require('mongoose');
