@@ -2,6 +2,7 @@
 Add reconnection handler on mongoose
 
 [![NPM version](https://badge.fury.io/js/mongoose-recon.svg)](https://www.npmjs.com/package/mongoose-recon/)
+[![Build Status](https://travis-ci.org/gmelillo/mongoose-recon.svg?branch=master)](https://travis-ci.org/gmelillo/mongoose-recon)
 
 ### Getting started
 
