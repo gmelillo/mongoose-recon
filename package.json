@@ -1,10 +1,11 @@
 {
   "name": "mongoose-recon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handle reconnection on mongoose if connection drop",
   "main": "index.js",
   "scripts": {
-    "test": "PATH=./node_modules/.bin:$PATH; mocha tests"
+    "test": "./node_modules/.bin/mocha tests",
+    "eslint": "./node_modules/.bin/eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,10 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.8.0",
+    "eslint-config-standard": "^6.2.0",
+    "eslint-plugin-promise": "^3.0.0",
+    "eslint-plugin-standard": "^2.0.1",
     "mongoose": "^4.6.4"
   }
 }
