@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-recon",
+  "version": "1.0.0",
+  "description": "Handle reconnection on mongoose if connection drop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmelillo/mongoose-recon.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "reconnect"
+  ],
+  "author": "Gabriel Melillo <gabriel@melillo.me>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gmelillo/mongoose-recon/issues"
+  },
+  "homepage": "https://github.com/gmelillo/mongoose-recon#readme"
+}
