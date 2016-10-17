@@ -7,4 +7,5 @@ services:
   - mongodb
 install:
   - travis_retry npm install mocha
+  - travis_retry npm install chai
   - travis_retry npm install mongoose
