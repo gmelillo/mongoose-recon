@@ -3,13 +3,10 @@ var expect = chai.expect;
 var MongooseRecon = require('../index.js');
 var mongoose = require('mongoose');
 
-describe('# Check : Params', () => {
+describe('# Step 1 : Params', () => {
 	it ('() should return an exception if no connection function is passed.', () => {
 		expect(MongooseRecon.bind(MongooseRecon, mongoose)).to.throw('reconnect paramiter must be function(mongoose,error).');
 	})
-});
-
-describe('# Check : Object', () => {
 	it ('() Should return a valid mongoose object.', () => {
 		expect(MongooseRecon(mongoose, (mongoose, error) => {
 			mongoose.connect('mongodb://localhost/dbtest');
@@ -23,7 +20,7 @@ MongooseRecon(mongoose, (mongoose, error) => {
 	return mongoose;
 });
 
-describe('# Check : DB operations', () => {
+describe('# Step 2 : DB operations', () => {
 	it('Should be able to get database details.', (done) => {
 		mongoose.connection.db.stats((err, stats) => {
 			if (err) {
