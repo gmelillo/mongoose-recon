@@ -1,16 +1,14 @@
-var debug    = require('debug')('mongoose-recon-debug')
+var debug    = require('debug')('mongoose-recon-debug');
 
 var mongoConnected = false;
 
 module.exports = function(mongoose, reconnect, retry) {
 	if (typeof retry == 'undefined') {
-		retry = 5000
-	}
-	if (typeof reconnect == 'undefined') {
-		throw new Error('Please provide a connection string to handle the reconnection.');
+		debug('Retry time not configured, default : 5s');
+		retry = 5000;
 	}
 	if (typeof reconnect != 'function') {
-		throw new Error('reconnect paramiter must be a function.');
+		throw new Error('reconnect paramiter must be function(mongoose,error).');
 	}
 	mongoose.connection.on('open', (ref) => {
 		debug('Connection to MongoDB opened.');
