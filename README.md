@@ -15,7 +15,7 @@ npm install mongoose-recon
 var mongoose = require('mongoose');
 
 mongooseConnection = (mongoose, error) => {
-	mongoose.connect(process.env.MASTERMIND_MONGODB || 'mongodb://localhost/database', error);
+	mongoose.connect(process.env.MONGODB || 'mongodb://localhost/database', error);
 	mongoose.Promise = global.Promise;
 	return mongoose;
 }
