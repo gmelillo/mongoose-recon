@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/gmelillo/mongoose-recon/issues"
   },
-  "homepage": "https://github.com/gmelillo/mongoose-recon#readme"
+  "homepage": "https://github.com/gmelillo/mongoose-recon#readme",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
 }
