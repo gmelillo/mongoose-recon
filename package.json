@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/gmelillo/mongoose-recon#readme",
   "dependencies": {
-    "debug": "2.3.3"
+    "debug": "^2.4.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
