@@ -10,3 +10,4 @@ install:
   - travis_retry npm install mocha
   - travis_retry npm install chai
   - travis_retry npm install mongoose
+  - travis_retry npm install --only=dev
