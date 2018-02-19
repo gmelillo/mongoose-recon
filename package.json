@@ -1,6 +1,6 @@
 {
   "name": "mongoose-recon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Handle reconnection on mongoose if connection drop",
   "main": "index.js",
   "scripts": {
