@@ -23,14 +23,15 @@
   },
   "homepage": "https://github.com/gmelillo/mongoose-recon#readme",
   "dependencies": {
-    "debug": "^3.0.0"
+    "debug": "^3.0.0",
+    "mocha": "^5.0.1"
   },
   "devDependencies": {
     "eslint": "^4.1.0",
     "chai": "^4.1.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.0.0",
     "eslint-plugin-standard": "^3.0.0",
     "mongoose": "^5.0.0"
