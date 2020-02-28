@@ -26,7 +26,7 @@
   "homepage": "https://github.com/gmelillo/mongoose-recon#readme",
   "dependencies": {
     "debug": "^4.1.1",
-    "mocha": "^7.0.0",
+    "mocha": "^7.1.0",
     "snyk": "^1.295.0"
   },
   "devDependencies": {
