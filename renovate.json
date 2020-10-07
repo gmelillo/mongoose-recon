@@ -12,5 +12,11 @@
   ],
   "prHourlyLimit": 0,
   "masterIssue": true,
-  "masterIssueAutoclose": true
+  "masterIssueAutoclose": true,
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+  ]
 }
